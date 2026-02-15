@@ -11,8 +11,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     position: relative;
+    padding: 20px 0;
 }
 
 /* Floating hearts background */
@@ -122,6 +122,8 @@ body {
     position: relative;
     z-index: 10;
     max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
     animation: slideIn 0.8s ease-out;
 }
 
